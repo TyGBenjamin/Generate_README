@@ -18,8 +18,13 @@ const promptUser = () => {
     },
     {
       type: 'input',
+      name: 'descriptionA',
+      message: 'What problem does it solve?',
+    },
+    {
+      type: 'input',
       name: 'installation',
-      message: 'How should this applciation  be installed?',
+      message: 'How should this applciation be installed?',
     },
     {
       type: 'input',
@@ -29,12 +34,17 @@ const promptUser = () => {
     {
       type: 'input',
       name: 'contributing',
-      message: 'Contribuitng factors/guidelines?',
+      message: 'Who has Contributed to this project?',
     },
     {
       type: 'input',
       name: 'tests',
       message: 'Test instructions?',
+    },
+    {
+      type: 'list',
+      name: 'badge',
+      choices: ['Apache','GNU','MIT','Mozilla','ISC']
     },
     {
       type: 'input',
@@ -77,8 +87,8 @@ const promptUser = () => {
 const init = () => {
   promptUser()
     // Use writeFileSync method to use promises instead of a callback function
-    .then((answers) => fs.writeFileSync('index.html', generateMarkdown(answers)))
-    .then(() => console.log('Successfully wrote to index.html'))
+    .then((answers) => fs.writeFileSync('README.md', generateMarkdown(answers)))
+    .then(() => console.log('Successfully wrote to README.md'))
     .catch((err) => console.error(err));
 };
 
