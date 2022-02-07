@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generateMarkdown = require('generateMarkdown')
+const generateMarkdown = require('./generateMarkdown')
 
 // Use writeFileSync method to use promises instead of a callback function
 
@@ -9,7 +9,7 @@ const promptUser = () => {
     {
       type: 'input',
       name: 'title',
-      message: 'What is the title of your porject?',
+      message: 'What is the title of your project?',
     },
     {
       type: 'input',

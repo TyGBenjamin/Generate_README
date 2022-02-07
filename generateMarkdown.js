@@ -18,40 +18,30 @@ function generateMarkdown(data) {
   
   
   ## Installation 
-  
+  ${data.installation}
   
   ## Usage
-  
+  ${data.usage}
   
   ## License 
   
   
   
   ## Contributing
+  ${data.contributing}
   
   
   ## Tests
+  ${data.tests}
   
   
   
   ## Questions
+  Any additional Questions feel free to email me at: ${data.email}
   
-  
-  ## Up Next
-  
-  For a closer preview of what we explore in each unit of the boot camp, dive into each unit’s overview to learn the following:
-  
-  * What you will learn in the unit and why it’s important
-  
-  * How topics in the unit relate to what came earlier in the boot camp
-  
-  * Activities you’ll complete and what skills they focus on
-  
-  * Common interview questions related to that week’s material
-  
-  * Helpful resources if you want to get ahead or gain more experience after the unit
   
   © 2021 Tyler B Gandy. Confidential and Proprietary. All Rights Reserved.
+  Other Projects and repositories can be viewed [here](www.github.com/${data.github})
   `;
 }
 
