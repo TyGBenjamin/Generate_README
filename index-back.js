@@ -44,7 +44,7 @@ const promptUser = () => {
     {
       type: 'list',
       name: 'license',
-      choices: ['Apache','GNU','MIT','Mozilla','ISC']
+      choices: ['Apache','GNU','MIT','Mozilla','ISC','none']
     },
     {
       type: 'input',
