@@ -70,6 +70,8 @@ function generateMarkdown(data) {
   
   ## Usage
   ${data.usage}
+
+  ${data.problem}
   
   ${renderLicenseSection(data.license)}
  
@@ -89,6 +91,8 @@ function generateMarkdown(data) {
   
   
   ## Questions
+  A video for previewing the usage of this application can be found in the following link 
+  [Video-Walkthrough](https://www.youtube.com/watch?v=OOfBL2i1Gc0)
   Any additional Questions feel free to email me at: ${data.email}
   
   
@@ -100,6 +104,3 @@ function generateMarkdown(data) {
 }
 
 module.exports = generateMarkdown;
-// module.exports = renderLicenseBadge;
-// module.exports = renderLicenseLink;
-// module.exports = renderLicenseSection;
