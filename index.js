@@ -67,8 +67,6 @@ const init = () => {
     // Use writeFileSync method to use promises instead of a callback function
     .then((answers) => fs.writeFileSync('README.md', generateMarkdown(answers), console.log(answers)))
     .then(() => console.log('Successful'),
-    // renderLicenseLink(answers),
-    // renderLicenseSection(answers),
     )
     .catch((err) => console.error(err));
 
