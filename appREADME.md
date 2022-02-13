@@ -29,6 +29,9 @@ After installing these, javascript has to be run from terminal through node and 
 
 ![Run node index.js from terminal](https://user-images.githubusercontent.com/94323045/153733253-35fe68de-4218-4df4-8eb1-db76a48bf46f.jpg)
 
+![Answer Prompts in Terminal](https://user-images.githubusercontent.com/94323045/153733420-007da0d4-6d49-462d-b821-47b5de19ed8e.jpg)
+
+
 
 
 
