@@ -21,13 +21,15 @@ Also have to initiliaze the npm command to install inquirer which is a third par
 After installing these, javascript has to be run from terminal through node and the prompts in terminal screen are used to generate READMe.md
 
 ### Screen Shots of Installation Steps 
-![Opening in the terminal](https://user-images.githubusercontent.com/94323045/153732849-d642f721-7391-4260-aa5a-0d64c91dbfc9.png)
+![Opening in the terminal](https://user-images.githubusercontent.com/94323045/153733203-33d682c1-e571-4471-bb65-6379c397cc3c.jpg)
 
-![Npm Install](https://user-images.githubusercontent.com/94323045/153732861-7f0f8137-ffe9-49ed-b93b-4be788de6969.png)
 
-![Running Node](https://user-images.githubusercontent.com/94323045/153732922-69d9a79b-56f7-4f37-a18b-cd4198ffd106.png)
+![Running npm install](https://user-images.githubusercontent.com/94323045/153733239-3cc0e457-7e68-42cb-8c9b-76a540641314.jpg)
 
-![initiating Prompts](https://user-images.githubusercontent.com/94323045/153732934-06341880-6443-4156-8fbc-f05e5b6480cc.png)
+RUN NODE INDEX
+![Run node index.js from terminal](https://user-images.githubusercontent.com/94323045/153733253-35fe68de-4218-4df4-8eb1-db76a48bf46f.jpg)
+
+
 
 
 
