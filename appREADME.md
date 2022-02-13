@@ -26,7 +26,7 @@ After installing these, javascript has to be run from terminal through node and 
 
 ![Running npm install](https://user-images.githubusercontent.com/94323045/153733239-3cc0e457-7e68-42cb-8c9b-76a540641314.jpg)
 
-RUN NODE INDEX
+
 ![Run node index.js from terminal](https://user-images.githubusercontent.com/94323045/153733253-35fe68de-4218-4df4-8eb1-db76a48bf46f.jpg)
 
 
