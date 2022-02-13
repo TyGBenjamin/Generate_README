@@ -18,7 +18,19 @@ This application is primarily used to run javascript code from the back-end in o
 
 Initially you musty have Node installed
 Also have to initiliaze the npm command to install inquirer which is a third party application
-AFter installing these, javascript has to be run from terminal through node and the prompts in terminal screen are used to generate READMe.md
+After installing these, javascript has to be run from terminal through node and the prompts in terminal screen are used to generate READMe.md
+
+### Screen Shots of Installation Steps 
+![Opening in the terminal](https://user-images.githubusercontent.com/94323045/153732849-d642f721-7391-4260-aa5a-0d64c91dbfc9.png)
+
+![Npm Install](https://user-images.githubusercontent.com/94323045/153732861-7f0f8137-ffe9-49ed-b93b-4be788de6969.png)
+
+![Running Node](https://user-images.githubusercontent.com/94323045/153732922-69d9a79b-56f7-4f37-a18b-cd4198ffd106.png)
+
+![initiating Prompts](https://user-images.githubusercontent.com/94323045/153732934-06341880-6443-4156-8fbc-f05e5b6480cc.png)
+
+
+
 
 ## Usage
 this application can be use used to generate a number of README files.
